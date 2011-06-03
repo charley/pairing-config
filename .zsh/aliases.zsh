@@ -9,10 +9,13 @@ alias la='ls -alF' # include dot files in listing; add / to end of directories
 alias mv='mv -i' # prompt before moving a file that would overwrite an existing file
 alias watch='watchr ~/.watchr.rb'
 alias lop='sudo lsof -i -P | grep -i "listen"' # show open ports
-
+alias mysql_start='/usr/local/Cellar/mysql/5.5.10/bin/mysqld_safe &'
 alias icons='cd ~/Pictures/icons; open -a Preview **/*.png **/*.tiff  **/*.jpg'
 alias preview='open -a Preview'
 alias bwm='cd ~/projects/buywithme'
+alias rgl='rvm gemset list'
+alias mount_groupon='hdiutil mount /Users/charleybaker/projects/groupon.sparseimage'
+alias proj='cd ~/projects'
 
 # Databses
 
